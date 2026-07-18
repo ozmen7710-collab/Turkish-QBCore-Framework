@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turkish QBCore HUD</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="hud-container">
+        <div class="player-info">
+            <div class="health-bar">
+                <span>❤️ Sağlık</span>
+                <div class="bar" id="healthBar"></div>
+                <span id="healthValue">100%</span>
+            </div>
+            <div class="hunger-bar">
+                <span>🍗 Açlık</span>
+                <div class="bar" id="hungerBar"></div>
+                <span id="hungerValue">100%</span>
+            </div>
+            <div class="thirst-bar">
+                <span>💧 Susuz</span>
+                <div class="bar" id="thirstBar"></div>
+                <span id="thirstValue">100%</span>
+            </div>
+        </div>
+        <div class="money-info">
+            <div class="cash">💵 Para: <span id="cashValue">$0</span></div>
+            <div class="bank">🏦 Banka: <span id="bankValue">$0</span></div>
+        </div>
+        <div class="job-info">
+            <span id="jobName">İş: Işsız</span>
+            <span id="jobGrade">Derece: N/A</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

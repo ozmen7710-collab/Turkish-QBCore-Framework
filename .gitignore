@@ -1,0 +1,8 @@
+node_modules/
+*.log
+.env
+.DS_Store
+.vscode/
+resources/**/.git
+sql/backups/
+*.sql.bak
